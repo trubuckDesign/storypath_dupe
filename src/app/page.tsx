@@ -16,6 +16,7 @@ const LandingPage = () => {
     const scale = 1 + (distanceX / width + distanceY / height) * 0.2;
     setMousePosition({ scale });
   };
+  console.log("CLASS 1");
 
   return (
     <Box
@@ -91,7 +92,7 @@ const LandingPage = () => {
               color="black"
               sx={{ textAlign: "center", mt: 2, fontFamily: '"Times New Roman", Times, serif', fontWeight: "bold" }}
             >
-              Nuggets for Neptune: Ethan`s Adventure
+              {"Title of book"}
             </Typography>
           </Box>
         </Box>
