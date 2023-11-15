@@ -16,6 +16,7 @@ const LandingPage = () => {
     const scale = 1 + (distanceX / width + distanceY / height) * 0.2;
     setMousePosition({ scale });
   };
+  console.log("CLASS 1");
 
   return (
     <Box
